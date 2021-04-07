@@ -2,7 +2,7 @@ library(spatstat)
 
 ####SIMULATION####
 
-#Create a function that creates a thomas cliuster process that takes in the desired intensity of parent points, the standard deviation of the multivariate normals, the desired mean number of points per cluster,and 2 lists of the length and breadth of the square window  
+#Create a function that creates a thomas cluster process that takes in the desired intensity of parent points, the standard deviation of the multivariate normals, the desired mean number of points per cluster,and 2 lists of the length and breadth of the square window  
 thomasprocess <- function(intensitypp,standarddev,meanpointcluster,xrange,yrange){
   #Assigns variables that are the maximum and minumumx values of the square window being created  
   xupper <- xrange[2]
